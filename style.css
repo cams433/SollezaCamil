@@ -1,0 +1,212 @@
+/* navbar style */
+.navbar {
+  background-color: #c99381;
+  color: #fff;
+  padding: 2px 0;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 0 4px;
+}
+
+/*navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  position: relative;
+  right: 150px;
+}
+
+.nav-links li {
+  margin-right: 80px;
+}
+
+.nav-links li:last-child {
+  margin-right: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(248, 248, 248);
+  font-weight: bold;
+}
+
+/* links on hover */
+.nav-links a:hover {
+  color: #ff9900;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  text-align: center;
+  color: black;
+  padding: 123px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.hero h2 {
+  font-size: 200%;
+}
+
+.hero h3 {
+  font-size: 150%;
+}
+
+.hero h5 {
+  font-size: 120%;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #b86e00;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* About section */
+.about {
+  background-color: #fff;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  position: relative;
+  bottom: 200px;
+  justify-content: center;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 200px;
+}
+
+.coffee-beans {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+/* Menu section styles */
+.menu {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.menu h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  max-width: 180px;
+  margin: 0 auto 40px;
+}
+
+.menu-item img {
+  max-width: 100%;
+}
+
+.menu-item h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Contact section styles */
+.contact {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 25px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  /* border-radius:  */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #c99381;
+  color: rgb(248, 248, 248);
+  text-align: center;
+  padding: 2px 0;
+}
